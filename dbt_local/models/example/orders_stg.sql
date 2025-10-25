@@ -1,0 +1,13 @@
+    SELECT ORDERID,
+ORDERDATE,
+CUSTOMERID,
+EMPLOYEEID,
+STOREID,
+STATUS,
+UPDATED_AT,
+CASE WHEN STATUS='01' then 'In Progress'
+     WHEN STATUS='02' then 'Completed'
+	 WHEN STATUS='03' then 'Cancelled'
+	 else null
+	 end as STATUS_DESC
+from SLEEKMART_OMS.L1_LANDING.ORDERS
