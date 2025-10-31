@@ -25,3 +25,29 @@ Happy modeling!
 [0m13:19:54.474816 [info ] [MainThread]: Profile dbt_local written to C:\Users\0044QT744\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
 [0m13:19:54.484834 [debug] [MainThread]: Command `dbt init` succeeded at 13:19:54.484834 after 160.12 seconds
 [0m13:19:54.487273 [debug] [MainThread]: Flushing usage events
+[0m13:35:31.921179 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 13:35:32.073358 | 4251db71-629a-40e0-a79f-7e928feb49c9 ==============================
+[0m13:35:32.073358 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m13:35:32.073358 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt run', 'profiles_dir': 'C:\\Users\\0044QT744\\.dbt', 'target_path': 'None', 'log_format': 'default', 'printer_width': '80', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m13:35:32.073358 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\0044QT744\dbt_local_push\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:35:32.078386 [debug] [MainThread]: Command `dbt run` failed at 13:35:32.078386 after 0.23 seconds
+[0m13:35:32.078386 [debug] [MainThread]: Flushing usage events
+[0m18:27:27.492816 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 18:27:27.572245 | ca873b40-48b1-4a6a-8f35-6bd43e3ce257 ==============================
+[0m18:27:27.572245 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m18:27:27.572245 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'no_print': 'None', 'write_json': 'True', 'profiles_dir': 'C:\\Users\\0044QT744\\.dbt', 'cache_selected_only': 'False', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'introspect': 'True', 'quiet': 'False', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'printer_width': '80', 'target_path': 'None'}
+[0m18:27:27.572245 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\0044QT744\dbt_local_push\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:27:27.576825 [debug] [MainThread]: Command `dbt run` failed at 18:27:27.576825 after 0.19 seconds
+[0m18:27:27.576825 [debug] [MainThread]: Flushing usage events
